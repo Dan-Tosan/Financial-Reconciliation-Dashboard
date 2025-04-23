@@ -58,7 +58,7 @@ This Power BI dashboard presents a structured view of financial transaction inte
   - Reconciliation Status
   - Approval Status
   - Branch
-  - Transaction Mode
+  - Processed by
   - Date (with MonthYear granularity)
 
 
