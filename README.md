@@ -26,3 +26,40 @@ This dashboard enables teams to:
 - Used logic to populate empty `Comment` fields based on `Approval Status`
 - Replaced blanks in `Currency` based on the most common currency per branch
 
+## Dashboard Highlights
+
+This Power BI dashboard presents a structured view of financial transaction integrity and reconciliation. Key sections include:
+
+### KPI Indicators
+- **Total Transactions**
+- **Matched Transactions**
+- **Mismatched Transactions**
+- **Pending Transactions**
+
+### 📈 Visual Elements
+
+- **Approval Status Trend (Bar Chart)**  
+  Shows monthly status distribution: Matched, Mismatched, Pending.
+
+- **Transactions over time (Line Chart)**  
+  Total transactions evolve.
+
+- **Top 5 Transactions by Branch (Stacked Bar)**  
+  Visualizes volume of transactions per branch; highlights volume discrepancies using conditional formatting.
+
+- **Currency Breakdown (Pie Chart)**  
+  Distribution of transaction values across multiple currencies.
+
+- **Reconciliation Status Distribution (Donut Chart)**  
+  Quick overview of how many transactions are matched, mismatched, pending, or adjusted.
+
+- **Interactive Slicers**  
+  Slicers for:
+  - Reconciliation Status
+  - Approval Status
+  - Branch
+  - Transaction Mode
+  - Date (with MonthYear granularity)
+
+
+
