@@ -64,9 +64,9 @@ This Power BI dashboard presents a structured view of financial transaction inte
 
 ---
 
-## 📸 Dashboard Preview
+## Dashboard Preview
 
-![Dashboard Preview](assets/dashboard_preview.png)
+![Dashboard Preview](https://github.com/Dan-Tosan/Financial-Reconciliation-Dashboard/blob/main/final%20dashboard.png)
 
 ---
 
