@@ -36,7 +36,7 @@ This Power BI dashboard presents a structured view of financial transaction inte
 - **Mismatched Transactions**
 - **Pending Transactions**
 
-### 📈 Visual Elements
+### Visual Elements
 
 - **Approval Status Trend (Bar Chart)**  
   Shows monthly status distribution: Matched, Mismatched, Pending.
@@ -60,6 +60,22 @@ This Power BI dashboard presents a structured view of financial transaction inte
   - Branch
   - Processed by
   - Date (with MonthYear granularity)
+
+
+---
+
+## 📸 Dashboard Preview
+
+![Dashboard Preview](assets/dashboard_preview.png)
+
+---
+
+## 🚀 How to View the Dashboard
+
+1. Clone the repository or download the files.
+2. Open the `.pbix` file in **Power BI Desktop**.
+3. Ensure the dataset path is correctly set if prompted.
+4. Use the interactive slicers to explore the insights.
 
 
 
