@@ -7,3 +7,22 @@ This dashboard enables teams to:
 - Monitor branch-level transaction activities
 - Highlight approvals and pending issues
 
+## Tools Used
+
+- **Microsoft Excel** – Initial data cleaning and transformation
+- **Power BI** – Data modeling, DAX calculations, and interactive visualizations
+- **DAX** – Used for KPI metrics, trends, conditional formatting, and slicers
+- **GitHub** – Version control and documentation
+
+---
+
+## Data Cleaning Process (Excel)
+
+- **Handled missing values** in key columns like `Date`, `Currency`, and `Comments`
+- Created a `MonthYear` column from `Date` to support trend analysis
+- Cleaned and standardized fields like:
+  - `Approval Status` → values: Approved, Pending, Rejected, Unknown
+  - `Reconciliation Status` → values: Matched, Mismatched, Pending, Unknown
+- Used logic to populate empty `Comment` fields based on `Approval Status`
+- Replaced blanks in `Currency` based on the most common currency per branch
+
